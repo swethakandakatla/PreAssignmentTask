@@ -1,0 +1,14 @@
+server:
+  port: 8181
+
+logging:
+  level:
+    uk.test.crime: DEBUG
+
+services:
+  postcodeApiConfig:
+    postcodeApiBase: https://api.postcodes.io
+
+  policeApiConfig:
+    policeApiBase: https://data.police.uk/api
+    
